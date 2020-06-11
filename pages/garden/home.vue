@@ -11,6 +11,8 @@
 		<timeLine v-if="TabCur === '0'"></timeLine>
 		<topic v-if="TabCur === '1'"></topic>
 		<recommend v-if="TabCur === '2'"></recommend>
+		<imageText v-if="TabCur === '3'"></imageText>
+		<shareText v-if="TabCur === '4'"></shareText>
 	</view>
 </template>
 

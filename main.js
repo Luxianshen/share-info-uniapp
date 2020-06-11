@@ -13,6 +13,12 @@ Vue.component('recommend',recommend)
 import timeLine from './pages/garden/timeLine.vue'
 Vue.component('timeLine',timeLine)
 
+import imageText from './pages/garden/imageText.vue'
+Vue.component('imageText',imageText)
+
+import shareText from './pages/garden/shareText.vue'
+Vue.component('shareText',shareText)
+
 import basics from './pages/basics/home.vue'
 Vue.component('basics',basics)
 

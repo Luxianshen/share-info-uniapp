@@ -1,7 +1,7 @@
 {
     "name" : "ColorUi for UniApp",
-    "appid" : "",
-    "description" : "",
+    "appid" : "__UNI__A75DB7B",
+    "description" : "share-info",
     "versionName" : "ColorUi for UniApp 2.1.4",
     "versionCode" : 214,
     "transformPx" : false,
@@ -55,7 +55,10 @@
         }
     },
     "h5" : {
-        "title" : "ColorUi for UniApp",
-        "domain" : "demo.color-ui.com"
+        "title" : "share-info",
+        "domain" : "49.233.171.48",
+        "router" : {
+            "base" : "/share-info"
+        }
     }
 }
