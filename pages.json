@@ -7,7 +7,19 @@
 		},
 		//garden 相关
 		{
+			"path": "pages/garden/demo",
+			"style": {}
+		},
+		{
 			"path": "pages/garden/timeLineAdd",
+			"style": {}
+		},
+		{
+			"path": "pages/garden/topicAdd",
+			"style": {}
+		},
+		{
+			"path": "pages/garden/topic_detail",
 			"style": {}
 		},
 		{
@@ -114,7 +126,7 @@
 			"allowsBounceVertical": "NO"
 		},
 		"navigationBarBackgroundColor": "#0081ff",
-		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationBarTitleText": "Share-Info",
 		"navigationStyle": "custom",
 		"navigationBarTextStyle": "white"
 	},

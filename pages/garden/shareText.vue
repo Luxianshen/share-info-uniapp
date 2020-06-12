@@ -22,12 +22,12 @@
 					<view class="content">
 						<text class="cuIcon-emojiflashfill text-pink"></text>
 						<text class="text-grey">赞同</text>
-						<text class="cu-avatar-group " style="margin-left: 140px;">
+						<view class="cu-avatar-group " style="margin-left: 140px;">
 							<view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
 							<view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81005.jpg);"></view>
 							<view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big25002.jpg);"></view>
 							<view class="cu-avatar round sm" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big91012.jpg);"></view>
-						</text>
+						</view>
 						<text class="text-grey text-sm">4 人</text>
 					</view>
 					<view class="margin-top-sm flex justify-between">

@@ -31,6 +31,9 @@ Vue.component('plugin',plugin)
 import cuCustom from './colorui/components/cu-custom.vue'
 Vue.component('cu-custom',cuCustom)
 
+import wucTab from './colorui/components/wuc-tab.vue'
+Vue.component('wuc-tab',wucTab)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

@@ -3,10 +3,11 @@
 		<view class="cu-bar bg-white solid-bottom margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-orange "></text>话题列表
+				<button class="cu-btn bg-yellow" style="margin-left: 180px;">话题中心</button>
 			</view>
 		</view>
 		<view class="cu-list menu-avatar">
-			<view class="cu-item" v-for="(item,index) in 2" :key="index" :data-id="index">
+			<view class="cu-item" v-for="(item,index) in 2" :key="index" :data-id="index" @click="goDetail">
 				<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
 				<view class="content">
 					<view class="text-grey">凯尔 <view class="cu-tag round bg-orange sm">战士</view>
@@ -35,9 +36,9 @@
 			return {};
 		},
 		methods: {
-			goAdd() {
+			goDetail() {
 				uni.navigateTo({
-					url: '/pages/garden/timeLineAdd',
+					url: '/pages/garden/topic_detail',
 				});
 			}
 		},
